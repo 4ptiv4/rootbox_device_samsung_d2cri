@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- use empty string to specify no proxy or port -->
+<!-- This version must agree with that in apps/common/res/apns.xml -->
+<apns version="7">
+    <apn carrier="LTE INTERNET"
+        mcc="311"
+        mnc="580"
+        apn="usccinternet"
+        user=""
+        password=""
+        type="default,dun,mms,fota"
+           authtype="0" 
+        mmsc="http://mmsc1.uscc.net/mmsc/MMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        bearer="14"
+    />
+    <apn carrier="LTE INTERNET"
+        mcc="311"
+        mnc="225"
+        apn="usccinternet"
+        user=""
+        password=""
+        type="default,dun,mms,fota"
+           authtype="0" 
+        mmsc="http://mmsc1.uscc.net/mmsc/MMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        bearer="14"
+    />
+</apns>
