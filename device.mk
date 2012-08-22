@@ -15,7 +15,7 @@
 #
 
 ## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/d2tmo/d2tmo-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/d2usc/d2usc-vendor.mk)
 
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2usc/overlay
