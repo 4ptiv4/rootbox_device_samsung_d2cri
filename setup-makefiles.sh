@@ -1,5 +1,5 @@
 VENDOR=samsung
-DEVICE=d2spr
+DEVICE=d2usc
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 

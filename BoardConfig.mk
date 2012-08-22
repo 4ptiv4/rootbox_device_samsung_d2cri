@@ -24,14 +24,14 @@
 -include device/samsung/d2-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/d2spr/BoardConfigVendor.mk
+-include vendor/samsung/d2usc/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2spr
+TARGET_OTA_ASSERT_DEVICE := d2usc
 
 # Kernel
 TARGET_KERNEL_SOURCE    := kernel/samsung/d2
-TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
+TARGET_KERNEL_CONFIG    := cyanogen_d2usc_defconfig
 BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom user_debug=31
 BOARD_KERNEL_BASE           := 0x80200000
 BOARD_FORCE_RAMDISK_ADDRESS := 0x81500000

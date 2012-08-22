@@ -18,7 +18,7 @@ else
   fi
 fi
 
-BASE=../../../vendor/samsung/d2spr/proprietary
+BASE=../../../vendor/samsung/d2usc/proprietary
 rm -rf $BASE/*
 
 for FILE in `egrep -v '(^#|^$)' device-proprietary-files.txt`; do
