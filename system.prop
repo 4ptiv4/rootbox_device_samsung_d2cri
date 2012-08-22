@@ -129,6 +129,7 @@ keyguard.no_require_sim=true
 DEVICE_PROVISIONED=1
 telephony.lteOnCdmaDevice=1
 ro.config.svlte1x=true
+ro.cdma.subscribe_on_ruim_ready=true
 
 ro.com.google.clientidbase.ms=android-uscellular-us
 ro.com.google.clientidbase.am=android-samsung
