@@ -49,4 +49,7 @@
         <item>"mms"</item>
         <item>"supl"</item>
     </string-array>
+
+    <!-- If this value is true, The mms content-disposition field is supported correctly. If false, Content-disposition fragments are ignored -->
+    <bool name="config_mms_content_disposition_support">false</bool>
 </resources>
