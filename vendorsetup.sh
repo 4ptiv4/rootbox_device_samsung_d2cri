@@ -1,2 +1,2 @@
-add_lunch_combo cm_d2usc-eng
+add_lunch_combo cm_d2cri-eng
 
