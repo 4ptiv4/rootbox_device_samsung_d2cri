@@ -24,7 +24,7 @@
 -include device/samsung/d2-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/d2cri/BoardConfigVendor.mk
+-include vendor/samsung/d2r530/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2cri
