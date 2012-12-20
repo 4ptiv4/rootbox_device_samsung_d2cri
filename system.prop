@@ -6,7 +6,7 @@ rild.libargs=-d /dev/smd0
 
 # Fields for custom RIL
 # MAX PROP NAME is 31 chars --|
-ro.telephony.ril_class=SamsungCDMAQualcommSIMRIL
+ro.telephony.ril_class=SamsungCDMAQualcommRIL
 ro.cdma.home.operator.numeric=311220
 ro.cdma.home.operator.alpha=U.S.Cellular
 ro.cdma.subscribe_on_ruim_ready=true
